@@ -1,0 +1,194 @@
+@charset "utf-8";
+/*!
+ * common style v1.0 (ucd)
+ */
+/*Helvetica 字体*/
+/*@font-face
+{
+    font-family: Helvetica;
+    src: url(../public/font/Helvetica/Helvetica.ttf);
+}*/
+/*----------------------------*/
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft Yahei",Arial;
+   /* line-height: 1.5;*/
+    color: #36383c;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,
+fieldset,textarea,blockquote,th,td,select,textarea,code,pre,
+header,section,figure,nav,aside,fieldset,legend,menu,blockquote {
+    padding: 0;
+    margin: 0;
+    border:none;
+    outline:none;
+}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+textarea {
+    /*overflow: auto;*/
+    /*resize:none;*/
+}
+ol,ul {
+    list-style: none;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+button{border:none;background: none;margin:0;}
+button:focus {outline: none;}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"],
+input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"], input[type="url"],
+input[type="search"], input[type="tel"], input[type="color"], input[placeholder],.input-uneditable{
+    display: inline-block;
+    vertical-align: middle;
+    *display: inline;
+    *zoom: 1;
+    border: 1px solid #E6E9ED;
+    color: #8C9094;
+    font-size: 14px;
+    text-indent: 1px;
+    box-shadow: none;
+    background-color: #fff;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    -webkit-appearance:none;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus,
+input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus,
+input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus,
+input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, select:focus{
+    border-color: #da1e21;
+}
+
+/*input[readonly], select[readonly], textarea[readonly]*/
+input[disabled], select[disabled], textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #EAEDED;
+    color: #CAD2D3;
+}
+input[type="radio"], input[type="checkbox"]{
+    display: none;
+}
+input::-moz-placeholder,input:-moz-placeholder{
+    color:#666E79 !important;
+}
+input:-ms-input-placeholder{
+    color:#666E79 !important;
+}
+input::-webkit-input-placeholder{
+    color:#666E79 !important;
+}
+a {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor:pointer;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+a:link, a:visited{
+    text-decoration:none;
+}
+*{box-sizing: border-box}
+/* basic elements style */
+.clearfix, .row{
+    *zoom: 1;
+}
+.fl{  float: left;  }
+.fr{  float: right;  }
+.clearfix:after, .clearfix:before,
+.row:after, .row:before{
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    content: "";
+}
+.clearfix:after, .row:after{
+    clear: both;
+}
+/*!*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*!
+::-webkit-scrollbar
+{
+    width: 8px;
+    height: 8px;
+    background-color: #F5F5F5;
+}
+
+!*定义滚动条轨道 内阴影+圆角*!
+::-webkit-scrollbar-track
+{ 
+    border-radius: 8px;
+    background-color: #F5F5F5;
+}
+
+!*定义滑块 内阴影+圆角*!
+::-webkit-scrollbar-thumb
+{
+    border-radius: 8px; 
+    background-color: #bfc3c6;
+}
+!*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*!
+::-webkit-scrollbar
+{
+    width: 8px;
+    height: 8px;
+    background-color: #F5F5F5;
+}
+
+!*定义滚动条轨道 内阴影+圆角*!
+::-webkit-scrollbar-track
+{
+    border-radius: 8px;
+    background-color: #F5F5F5;
+}
+
+!*定义滑块 内阴影+圆角*!
+::-webkit-scrollbar-thumb
+{
+    border-radius: 8px;
+    background-color: #bfc3c6;
+}*/
+
+

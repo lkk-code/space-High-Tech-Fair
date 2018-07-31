@@ -1,0 +1,24 @@
+@import "basic.css";  /*引入重置标签样式*/
+/*@import "animation.css";  !*引入 css3 动画库*!*/
+html,body{
+    font-size: 100px;
+}
+
+/* 溢出出现省列号 */
+.ellipsis{ width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+/* 字体小于12 解决办法 */
+.font_size_9 {
+    font-size:9px !important;
+
+    transform:scale(0.75);
+    -webkit-transform:scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    -moz-transform: scale(0.75)
+}
+.text-gradient {
+    color: #f9f279;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 1)), to(rgba(247,194,81, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
